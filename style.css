@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#ab-background{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+
+#ab-selection-1{
+ width: 25%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ padding-left: 30px;
+}
+
+
+#bigheading{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#smaller{
+ margin-top: 20px;
+ font-size: 10px;
+ font-weight: 500;
+}
+
+#lorem{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .6;
+    padding-right: 30px;
+}
+
+#button{
+    margin-top: 30px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 100px;
+    padding: 17px 70px;
+    background-color: aqua;
+    width: fit-content;
+}
+
+#header{
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+#suggestions{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrap{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+.circle{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%; 
+   margin-right: 20px;
+   
+
+}
+
+#circle1{
+    background-image: url(c1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+#circle2{
+    background-image: url(c2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circle3{
+    background-image: url(c3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+#ab-selection-2{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav>i{
+    color: black;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.cards{
+    margin-top: 0px;
+    width: 250px;
+    height: 280px;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.cards h4{
+    padding-left: 20px;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 8px;  
+
+}
+
+.cards h6{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    opacity: 0.8;
+    color: white;
+    text-transform: capitalize;   
+}
+
+.cards span{
+    padding-left: 20px;
+    position: absolute;
+    top: 80%;
+    color: white;
+    text-transform: capitalize;   
+}
+
+
+#img1{
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 13%;
+}
+
+
+#img2{
+    background-image: url(img2.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 18%;
+}
+
+
+#img3{
+    background-image: url(img3.jpg);
+    background-position: center;
+    background-size: cover;
+    left: 25%;
+}
+
+
